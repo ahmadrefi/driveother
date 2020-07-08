@@ -15,7 +15,7 @@ def login():
     global gauth, drive
     gauth = GoogleAuth()
 
-    gauth.LoadCredentialsFile("auth.py")
+    gauth.LoadCredentialsFile("mycreds.txt")
     print("Loading credentials")
 
     if gauth.credentials is None:
