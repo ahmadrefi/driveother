@@ -1,2 +1,1 @@
-worker: python3 botTG.py
-
+worker: python3 -m bot
